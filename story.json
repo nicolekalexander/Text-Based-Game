@@ -1,0 +1,94 @@
+{
+    "title" : "Enchanted Forest Therapist",
+    "author" : "Nicole Alexander",
+    "version" : 0,
+    "intro" : "You awaken in the middle of what looks like an enchanted forest. \n You aren't sure how you arrived here but you're surrounded by tall trees, flowers, fairies, pixies, and other magical, woodland creatures.",
+    "scenes": [
+        {
+            "id" : 1,
+            "text" : "Off in the distance, you notice a cute but peculiar-looking cottage. \n You're intrigued by this cottage and want to explore it.\n There's also a part of you that's hesitant - after all you have no idea where you are. \n You aren't sure if it's a good idea to enter into an unknown cottage.",
+            "choices" : [
+                {
+                    "id" : "a",
+                    "text" : "Explore cottage.",
+                    "scene_id" : 3
+                },
+                {
+                    "id" : "b",
+                    "text" : "Explore surroundings.",
+                    "scene_id" : 2
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "text" : "You're in a field with one path. You see a beehive on a tree.",
+            "choices" : [
+                {
+                    "id" : "a",
+                    "text" : "Go down path.",
+                    "scene_id" : 1
+                },
+                {
+                    "id" : "b",
+                    "text" : "Go back to cottage.",
+                    "scene_id" : 3
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "text" : "You are in the cottage. You notice filing cabinets, drawers, pictures, a couch, and a phone on a nice wooden desk. The phone rings.",
+            "choices" : [
+                {
+                    "id" : "a",
+                    "text" : "Answer phone.",
+                    "scene_id" : 4
+                },
+                {
+                    "id" : "b",
+                    "text" : "Look through drawers and filing cabinets.",
+                    "scene_id" : 5
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "text" : "You answer the phone. A trembling voice is on the other line. He hastily informs you that he will be arriving in 2 minutes.\n \"Hello, doctor. I will be there in 2 minutes.\"",
+            "choices" : [
+                {
+                    "id" : "a",
+                    "text" : "Hi - sorry I'm not a doctor.",
+                    "scene_id" : 6
+                },
+                {
+                    "id" : "b",
+                    "text" : "Oh! Yes, of course. Thank you for letting me know.",
+                    "scene_id" : 6
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "text" : "You start looking through the drawers and filing cabinets. You notice a lot of documents and notes that look like patient-related information. It's almost as if this cottage belongs to a therapist.",
+            "choices" : [
+                {
+                    "id" : "a",
+                    "text" : "continue...",
+                    "scene_id" : 6
+                }
+            ]
+        },
+        {
+            "id" : 6,
+            "text" : "You hear a knock at the door.",
+            "choices" : [
+                {
+                    "id" : "a",
+                    "text" : "Answer the door.",
+                    "scene_id" : 7
+                }
+            ]
+        }
+    ]
+}
