@@ -2,11 +2,11 @@
     "title" : "Enchanted Forest Therapist",
     "author" : "Nicole Alexander",
     "version" : 0,
-    "intro" : "You awaken in the middle of what looks like an enchanted forest. \n You aren't sure how you arrived here but you're surrounded by tall trees, flowers, fairies, pixies, and other magical, woodland creatures.",
+    "intro" : "You awaken in the middle of what looks like an enchanted forest. \nYou aren't sure how you arrived here but you're surrounded by tall trees, flowers, fairies, pixies, and other magical, woodland creatures.",
     "scenes": [
         {
             "id" : 1,
-            "text" : "Off in the distance, you notice a cute but peculiar-looking cottage. \n You're intrigued by this cottage and want to explore it.\n There's also a part of you that's hesitant - after all you have no idea where you are. \n You aren't sure if it's a good idea to enter into an unknown cottage.",
+            "text" : "Off in the distance, you notice a cute but peculiar-looking cottage. \nYou're intrigued by this cottage and want to explore it.\nThere's also a part of you that's hesitant - after all you have no idea where you are. \nYou aren't sure if it's a good idea to enter into an unknown cottage.",
             "choices" : [
                 {
                     "id" : "a",
