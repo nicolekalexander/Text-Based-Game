@@ -5,3 +5,4 @@
     - finish writing game
 longer-term goal:
     - make flask app for game
+    - use markdown in github for profile
