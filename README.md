@@ -6,4 +6,4 @@
 
 _longer-term goal_:
  * make flask app for game
- * use markdown in github for profile
+
