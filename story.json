@@ -47,7 +47,7 @@
                 },
                 {
                     "id" : "b",
-                    "text" : "Look through drawers and filing cabinets.",
+                    "text" : "Ignore the ringing phone and look through the drawers and filing cabinets.",
                     "scene_id" : 5
                 }
             ]
@@ -87,6 +87,54 @@
                     "id" : "a",
                     "text" : "Answer the door.",
                     "scene_id" : 7
+                }
+            ]
+        },
+        {
+            "id" : 7,
+            "text" : "\"Hello, doctor. I'm here for my appointment.\" A tall tree human hybrid says.",
+            "choices" : [
+                {
+                    "id" : "a",
+                    "text" : "Hello. Please come in and take a seat.",
+                    "scene_id" : 9
+                },
+                {
+                    "id" : "b",
+                    "text" : "Uh...I'm sorry but I'm not your doctor.",
+                    "scene_id" : 8
+                }
+            ]
+        },
+        {
+            "id" : 8,
+            "text" : "\"You're funny, doc. I've been looking forward to our meeting all week. I can't wait to get started. Time's ticking and I know how busy you are today,\"the tall tree human creature says as it lets itself in and takes a seat on the couch.",
+            "choices" : [
+                {
+                    "id" : "a",
+                    "text" : "Let them in.",
+                    "scene_id" : 9
+                },
+                {
+                    "id" : "b",
+                    "text" : "Stare at them in complete shock. A tree is standing before you talking. You're in an empty therapist cottage in the middle of a magical forest. A lot is happening right now and it's all starting to hit you now.",
+                    "scene_id" : 10
+                }
+            ]
+        },
+        {
+            "id" : 9,
+            "text" : "The tree human hybrid sits in silence and looks at you with hopeful eyes waiting for you to start.",
+            "choices" : [
+                {
+                    "id" : "a",
+                    "text" : "Okay. Today has been an interesting day. How about you provide a recap of what's been going on and we'll move forward from there?",
+                    "scene_id" : 11
+                },
+                {
+                    "id" : "b",
+                    "text" : "Why are you here again?",
+                    "scene_id" : 11
                 }
             ]
         }

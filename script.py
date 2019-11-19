@@ -1,12 +1,12 @@
 #import packages
-import json
-import time
+import json #imports json data package
+import time #imports time data package
 
 #variables
-file_path = "story.json"
-story = open(file_path, "r").read()
-story_json = json.loads(story)
-scenes = story_json["scenes"]
+file_path = "story.json" #variable named file_path stores story.json file
+story = open(file_path, "r").read() #variable named story opens and reads story.json file
+story_json = json.loads(story) # variable named story_json stores the loaded enchanted forest therapist story
+scenes = story_json["scenes"] # variable named scenes with a value of scene attribute being accessed from story_json object
 
 #function definition
 def get_scene(scene_id):
