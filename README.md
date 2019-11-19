@@ -1,8 +1,8 @@
-# Enchanted Forest Therapist
- short-term goal:
+# **Enchanted Forest Therapist**
+ _short-term goal_:
     - add time sleeps after each line break
     - add colors
     - finish writing game
-longer-term goal:
+_longer-term goal_:
     - make flask app for game
     - use markdown in github for profile
