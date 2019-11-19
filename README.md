@@ -1,4 +1,4 @@
-# enchanted_forest_therapist
+# Enchanted Forest Therapist
  short-term goal:
     - add time sleeps after each line break
     - add colors
