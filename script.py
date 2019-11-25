@@ -1,14 +1,18 @@
 #import packages
 import json #imports json data package
 import time #imports time data package
-
 #variables
 file_path = "story.json" #variable named file_path stores story.json file
 story = open(file_path, "r").read() #variable named story opens and reads story.json file
 story_json = json.loads(story) # variable named story_json stores the loaded enchanted forest therapist story
 scenes = story_json["scenes"] # variable named scenes with a value of scene attribute being accessed from story_json object
-
 #function definition
+def get_intro():
+    print(story_json["title"] + " by " + story_json["author"] + "\n")
+    time.sleep(2)
+    print(story_json["intro"] + "\n")
+    time.sleep(2)
+
 def get_scene(scene_id):
     for scene in scenes:
         if (scene["id"] == scene_id):
@@ -28,14 +32,6 @@ def get_scene(scene_id):
                     print("Oops. Enter a number.")
                 print("That's not one of your options, silly.")    
             get_scene(selected_scene)
-
-def get_intro():
-    print(story_json["title"] + " by " + story_json["author"] + "\n")
-    time.sleep(2)
-    print(story_json["intro"] + "\n")
-    time.sleep(2)
-
-
 #starting game 
 get_intro()
 get_scene(1)

@@ -112,7 +112,7 @@
             "choices" : [
                 {
                     "id" : "a",
-                    "text" : "Let them in.",
+                    "text" : "Follow them and sit down at the desk.",
                     "scene_id" : 9
                 },
                 {
