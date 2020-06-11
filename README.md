@@ -1,9 +1,3 @@
 # **Enchanted Forest Therapist**
- _short-term goal_:
-* add time sleeps after each line break
-* add colors
-* finish writing game
 
-_longer-term goal_:
- * make flask app for game
-
+This is a fun python project of a text-based terminal game that uses inputs to progress in the game. I was interested in creating games with python and wanted to practice. My longterm plans were to create a flask application and connect it to the backend code I have. 
